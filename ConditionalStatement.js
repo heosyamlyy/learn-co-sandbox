@@ -28,9 +28,17 @@ if (dog === "hungry") {
   
 } else {
   console.log("Reading newspaper.")
+}var dog = "thirsty"
+ 
+if (dog === "hungry") {
+  console.log("Refilling food bowl.")
+} else if (dog === "thirsty") {
+  console.log("Refilling water bowl.")
+} else {
+  console.log("Reading newspaper.")
 }
 
-var dog = "thirsty"
+var dog = "cuddly"
 if (dog === "hungry") {
-  console.log("re")
+  
 }
